@@ -4,9 +4,9 @@ public class Main {
 
     public static void main (String[] args) {
 
-       int age = 20;
-       int quantity = 3;
-       int number = 3;
+        int age = 20;
+        int quantity = 3;
+        int number = 3;
 
         System.out.println("i have " + quantity + " " + "phones");
         System.out.print("I am " + age + " years old \n" );
