@@ -1,8 +1,22 @@
 public class Main {
 
-    public static void main (String[] args){
+    public static void main (String[] args) {
 
-        System.out.println("i am second");
+        //this is comment
+        /*
+        this
+        is multi
+        line
+        comment
+         */
 
+        System.out.println("I like Pizzas");
+        System.out.println("I like burgers");
+
+        System.out.print("I like shawarma\n");
+        System.out.print("I like cheese\n");
+
+        System.out.print("I like biryani");
+        System.out.print("I like chicken");
     }
 }
