@@ -36,7 +36,7 @@ public class Main {
         String gmail = "sahilsahilc912@gmail.com";
         String food = "lusania";
 
-        System.out.println("my name is " + naam + " and my gmail is " + gmail + "i like " + food);
+        System.out.println("my name is " + naam + " and my gmail is " + gmail + " I like " + food);
 
 
         boolean he = true;
