@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println(sign + " is the sign ");
         System.out.println("my name starts with " + name);
-        System.out.println(sign + " this is my sign and my name starts with " + name);
+        System.out.println(sign + " thiis is my sign and my name starts with " + name);
 
 
         double price = 12.5;
