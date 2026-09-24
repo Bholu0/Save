@@ -31,7 +31,7 @@ scanner.nextBoolean();
 
 
         Scanner anyname = new Scanner (System.in);
-        String okkkk = anyname.nextLine();
+        String ok = anyname.nextLine();
 
         //COMMON ISSUE
 
