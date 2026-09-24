@@ -5,51 +5,33 @@ public class Main {
 
     public static void main (String[] args){
 
-        Scanner scanner = new Scanner (System.in);
-
+        int width = 0;
+        double height = 0;
+        double area = 0;
 
 /*
-scanner.nextLine();
-scanner.nextInt();
-scanner.nextDouble();
-scanner.nextBoolean();
- */
-        System.out.print("Enter my name : ");
-        String name = scanner.nextLine();
+        int width;
+        Double height;
+        Double area;
 
-        System.out.print("Enter youur age : ");
-        int age = scanner.nextInt();
-
-        System.out.print("Enter your gpa : ");
-        Double gpa = scanner.nextDouble();
-
-
-        System.out.println("My name is " + name + " and my age is " + age + " and gpa is " + gpa);
-
-
-
-
-        Scanner anyname = new Scanner (System.in);
-        String ok = anyname.nextLine();
-
-        //COMMON ISSUE
-
-        System.out.print("what is your height : ");
-        Double tall = scanner.nextDouble();
-        scanner.nextLine();
-
-        System.out.print("what is your naam : ");
-        String naam = scanner.nextLine();
-
-        System.out.println("my height is " + tall + " and my naam is " + naam);
-
-        /*
-        solution
-        use this method
-        scanner.nextLine();
          */
 
-        //
+        Scanner scanner = new Scanner (System.in);
+
+        //calculatation of area of rectangle
+
+
+
+        System.out.print("What is width : ");
+        width = scanner.nextInt();
+
+        System.out.print("what is Breadth : ");
+        height = scanner.nextDouble();
+
+        area = width + height;
+
+        System.out.println("the area is " + area + "cm^2");
+
 
     }
 }
