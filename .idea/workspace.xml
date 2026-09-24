@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbdaf67-b6de-4247-9286-9edfda21cd1b" name="Changes" comment="okkkkk" />
+    <list default="true" id="1fbdaf67-b6de-4247-9286-9edfda21cd1b" name="Changes" comment="Variaballl">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,75 +16,75 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Bholu0"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bholu0&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Bholu0/Save.git",
-    "accountId": "550d47cf-d755-43c2-a23c-07f5596288d9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bholu0/Save.git&quot;,
+    &quot;accountId&quot;: &quot;550d47cf-d755-43c2-a23c-07f5596288d9&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0068484821977814" />
-      <entry key="MS500" value="1.3690786014207084" />
-      <entry key="S2" value="1.7794346643256944" />
-      <entry key="S5" value="1.9051319321151992" />
-      <entry key="S10" value="1.9513842987975343" />
-      <entry key="S30" value="1.990603869643151" />
-      <entry key="S60" value="2.137465422029085" />
-      <entry key="M2" value="2.9015840229235708" />
-      <entry key="M5" value="7.929609209966939" />
-      <entry key="M10" value="21.08387263940463" />
-      <entry key="M15" value="36.23589364350345" />
-      <entry key="M30" value="77.37809845873913" />
-      <entry key="H1" value="128.3361943302081" />
-      <entry key="H2" value="176.62726547163675" />
-      <entry key="H4" value="215.11469611843285" />
-      <entry key="D1" value="262.11412224945303" />
-      <entry key="W1" value="272.23906496300526" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0007205769990115" />
+      <entry key="S2" value="1.2920376824285102" />
+      <entry key="S5" value="2.0987581540147815" />
+      <entry key="S10" value="2.785519243610569" />
+      <entry key="S30" value="3.5355948082150084" />
+      <entry key="S60" value="4.055093899460732" />
+      <entry key="M2" value="5.874654400414399" />
+      <entry key="M5" value="14.995476894535642" />
+      <entry key="M10" value="31.115981103096654" />
+      <entry key="M15" value="45.00728719811788" />
+      <entry key="M30" value="79.30931034438517" />
+      <entry key="H1" value="136.2624844794466" />
+      <entry key="H2" value="209.71390696155183" />
+      <entry key="H4" value="278.18107525055643" />
+      <entry key="D1" value="369.74466136169724" />
+      <entry key="W1" value="390.381214655349" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.320229122190987E-156" />
-      <entry key="S5" value="6.433795043573007E-63" />
-      <entry key="S10" value="8.021094111803699E-32" />
-      <entry key="S30" value="4.318463975727705E-11" />
-      <entry key="S60" value="6.81092398185689E-6" />
-      <entry key="M2" value="0.0031371651838029866" />
-      <entry key="M5" value="0.1900836701269932" />
-      <entry key="M10" value="1.065770005795085" />
-      <entry key="M15" value="2.1181230773748045" />
-      <entry key="M30" value="4.657212162052208" />
-      <entry key="H1" value="7.430993872688877" />
-      <entry key="H2" value="10.048291533225134" />
-      <entry key="H4" value="12.282748838458106" />
-      <entry key="D1" value="15.22319271445362" />
-      <entry key="W1" value="15.884146500616486" />
+      <entry key="S2" value="5.9170772476185854E-92" />
+      <entry key="S5" value="3.2273283536905883E-37" />
+      <entry key="S10" value="5.685333823559728E-19" />
+      <entry key="S30" value="9.041393969786889E-7" />
+      <entry key="S60" value="0.001185618515193498" />
+      <entry key="M2" value="0.04687193062889277" />
+      <entry key="M5" value="0.4874901242781606" />
+      <entry key="M10" value="1.310893610935072" />
+      <entry key="M15" value="1.9862120499923246" />
+      <entry key="M30" value="3.657093837207673" />
+      <entry key="H1" value="6.571838776183745" />
+      <entry key="H2" value="10.44696605377391" />
+      <entry key="H4" value="14.217958233550453" />
+      <entry key="D1" value="19.539237094052456" />
+      <entry key="W1" value="20.78077880921011" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9793161575042226" />
-      <entry key="MS500" value="1.3615078276817403" />
-      <entry key="S2" value="1.7769695531641998" />
-      <entry key="S5" value="1.9040757955036354" />
-      <entry key="S10" value="1.9508433351818777" />
-      <entry key="S30" value="1.9904198275787945" />
-      <entry key="S60" value="2.1373711309362413" />
-      <entry key="M2" value="2.904376848280549" />
-      <entry key="M5" value="8.113665166722658" />
-      <entry key="M10" value="22.132137283933574" />
-      <entry key="M15" value="38.328482962669874" />
-      <entry key="M30" value="82.00164919339352" />
-      <entry key="H1" value="135.7366727312458" />
-      <entry key="H2" value="186.65337367544157" />
-      <entry key="H4" value="227.38340928712006" />
-      <entry key="D1" value="277.33434651882646" />
-      <entry key="W1" value="288.1227675646134" />
+      <entry key="MS100" value="1.6328054003519747E-9" />
+      <entry key="MS500" value="0.017838918675465765" />
+      <entry key="S2" value="0.537185260966787" />
+      <entry key="S5" value="1.5039105906374635" />
+      <entry key="S10" value="2.3594298314765982" />
+      <entry key="S30" value="3.3449751366894964" />
+      <entry key="S60" value="3.9379886333367855" />
+      <entry key="M2" value="5.822142740032523" />
+      <entry key="M5" value="15.378874661153002" />
+      <entry key="M10" value="32.315004130453396" />
+      <entry key="M15" value="46.88292202014173" />
+      <entry key="M30" value="82.87247793124736" />
+      <entry key="H1" value="142.76396322882155" />
+      <entry key="H2" value="220.1130561687834" />
+      <entry key="H4" value="292.3695228065384" />
+      <entry key="D1" value="389.2777385194907" />
+      <entry key="W1" value="411.1610733342786" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -93,29 +96,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "git.auto.fetch.suggestion.counter": "1",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/samal/IdeaProjects/MyFIrstProject/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/samal/IdeaProjects/MyFIrstProject/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -150,7 +153,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java" />
     <MESSAGE value="variablesss" />
     <MESSAGE value="okkkkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="okkkkk" />
+    <MESSAGE value="Variaballl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variaballl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
