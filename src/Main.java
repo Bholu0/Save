@@ -18,7 +18,7 @@ scanner.nextBoolean();
         System.out.print("Enter my name : ");
         String name = scanner.nextLine();
 
-        System.out.print("Enter your age : ");
+        System.out.print("Enter youur age : ");
         int age = scanner.nextInt();
 
         System.out.print("Enter your gpa : ");
