@@ -18,7 +18,7 @@ public class Main {
         char name = 'S';
 
         System.out.println(sign + " is the sign ");
-        System.out.println("my name starts with " + name);
+        System.out.println("my name start with " + name);
         System.out.println(sign + " thiis is my sign and my name starts with " + name);
 
 
