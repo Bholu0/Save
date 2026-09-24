@@ -10,7 +10,7 @@ public class Main {
         this
         is
         multi-line
-        comment
+        comments
          */
 
         System.out.print("i like pizzas\n");
