@@ -25,7 +25,7 @@ public class Main {
         System.out.print("What is width : ");
         width = scanner.nextInt();
 
-        System.out.print("what is Breadth : ");
+        System.out.print("whhat is Breadth : ");
         height = scanner.nextDouble();
 
         area = width + height;
