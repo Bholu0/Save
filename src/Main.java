@@ -14,7 +14,7 @@ public class Main {
 
                 Scanner scanner = new Scanner (System.in);
 
-        System.out.print("who write it : ");
+        System.out.print("who writes it : ");
         who = scanner.nextLine();
 
         System.out.print("how is it :" );
