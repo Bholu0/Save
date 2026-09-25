@@ -5,32 +5,33 @@ public class Main {
 
     public static void main (String[] args){
 
-        int width = 0;
-        double height = 0;
-        double area = 0;
+        //mad libs game
 
-/*
-        int width;
-        Double height;
-        Double area;
+        String who;
+        String result;
+        String anotherWho;
+        String itTurnOut;
 
-         */
+                Scanner scanner = new Scanner (System.in);
 
-        Scanner scanner = new Scanner (System.in);
+        System.out.print("who write it : ");
+        who = scanner.nextLine();
 
-        //calculatation of area of rectangle
+        System.out.print("how is it :" );
+                result = scanner.nextLine();
+
+        System.out.print("its loved by : ");
+        anotherWho = scanner.nextLine();
+
+        System.out.print("how it turnout : ");
+        itTurnOut = scanner.nextLine();
+
+        System.out.print("game of thrones is written by " + who);
+        System.out.print("it is " + result);
+        System.out.print("and it is praised  by " + anotherWho);
+        System.out.println("and it is  " + itTurnOut);
 
 
-
-        System.out.print("What is width : ");
-        width = scanner.nextInt();
-
-        System.out.print("whhat is Breadth : ");
-        height = scanner.nextDouble();
-
-        area = width + height;
-
-        System.out.println("the area is " + area + "cm^2");
 
 
     }
