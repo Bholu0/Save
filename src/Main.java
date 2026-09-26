@@ -7,7 +7,7 @@ public class Main {
 
         //Basic arthmatic in java
 
-        //arthmatic operation
+        //Arthmatic operation
 
         int x = 3;
         int y = 2;
