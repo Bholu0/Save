@@ -1,37 +1,56 @@
 import jdk.swing.interop.SwingInterOpUtils;
-import java.util.Scanner;
+
 
 public class Main {
 
     public static void main (String[] args){
 
-        //mad libs game
+        //Basic arthmatic in java
 
-        String who;
-        String result;
-        String anotherWho;
-        String itTurnOut;
+        //arthmatic operation
 
-                Scanner scanner = new Scanner (System.in);
+        int x = 3;
+        int y = 2;
+        int z;
 
-        System.out.print("who writes it : ");
-        who = scanner.nextLine();
+        //z = x + y;
+        //z = x - y;
+        //z = x * y;
+        //z = x/y;
+        //z = x%y;
 
-        System.out.print("how is it :" );
-                result = scanner.nextLine();
+        // Augmented Assignment Operation
 
-        System.out.print("its loved by : ");
-        anotherWho = scanner.nextLine();
+        //x = x+y;
+       // x += y;
+        //y = y+x;
+        //y += x;
+        //x = x-y;
+        //x -= y;
+        //x = x/y;
+        //x /= y;
+        //x = x*y;
+        //x *= y;
+        //x =x%y;
+        //x %= y;
 
-        System.out.print("how it turnout : ");
-        itTurnOut = scanner.nextLine();
+        //Increment And Decrement Operation
 
-        System.out.print("game of thrones is written by " + who);
-        System.out.print("it is " + result);
-        System.out.print("and it is praised  by " + anotherWho);
-        System.out.println("and it is  " + itTurnOut);
+        //x = x+1;
+        //x++;
+        //x++;
+        //x++;
+
+        //x = x-1;
+        //x--;
+        //x--;
+        //x--;
+
+        //Order Of Operation [P-E-M-D-A-S]
 
 
+
+        System.out.println( x + 2 - (5%2) - y/3 + x*8);
 
 
     }
