@@ -27,7 +27,7 @@ public class Main {
         total = price * item;
 
         System.out.println("you are buying a " + buy + " and the price of it is " + price + currency);
-        System.out.println("And your total is " + total + currency);
+        System.out.println("and your total is " + total + currency);
 
 
 

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9abf35-7ccc-4af9-afa3-d6490d87a622" name="Changes" comment="Java Arthmatics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f9abf35-7ccc-4af9-afa3-d6490d87a622" name="Changes" comment="Shopping cart programm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Arthmatics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Arthmatics" />
+    <MESSAGE value="Shopping cart programm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shopping cart programm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
