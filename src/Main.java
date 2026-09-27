@@ -7,6 +7,7 @@ public class Main {
 
         //Basic arthmatic in java
 
+        //arthmatic operation
         //Arthmatic operation
 
         int x = 3;
@@ -22,7 +23,7 @@ public class Main {
         // Augmented Assignment Operation
 
         //x = x+y;
-       // x += y;
+        // x += y;
         //y = y+x;
         //y += x;
         //x = x-y;
@@ -48,76 +49,11 @@ public class Main {
 
         //Order Of Operation [P-E-M-D-A-S]
 
+double result = x + 2 - (5%2) - y/3 + x*8;
 
 
-        System.out.println( x + 2 - (5%2) - y/3 + x*8);
+        System.out.println(result);
 
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

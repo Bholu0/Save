@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbdaf67-b6de-4247-9286-9edfda21cd1b" name="Changes" comment="Mad lib game user input">
+    <list default="true" id="3f9abf35-7ccc-4af9-afa3-d6490d87a622" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,109 +13,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Bholu0&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Bholu0/Save.git&quot;,
-    &quot;accountId&quot;: &quot;550d47cf-d755-43c2-a23c-07f5596288d9&quot;
-  }
-}</component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.0000333951935199" />
-      <entry key="MS500" value="1.1272731499705775" />
-      <entry key="S2" value="1.5972885621117063" />
-      <entry key="S5" value="1.8137175434239152" />
-      <entry key="S10" value="1.9020739166878333" />
-      <entry key="S30" value="2.0421745014943538" />
-      <entry key="S60" value="2.900712774128743" />
-      <entry key="M2" value="6.252689423204156" />
-      <entry key="M5" value="19.73098863115783" />
-      <entry key="M10" value="42.81157001148378" />
-      <entry key="M15" value="64.19503542572619" />
-      <entry key="M30" value="117.96637619037517" />
-      <entry key="H1" value="200.33295974693203" />
-      <entry key="H2" value="313.3023537119642" />
-      <entry key="H4" value="431.71189085964716" />
-      <entry key="D1" value="608.829553643545" />
-      <entry key="W1" value="651.4336354803446" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.390140831489603E-249" />
-      <entry key="S5" value="3.5593393542870894E-100" />
-      <entry key="S10" value="1.8866211475246951E-50" />
-      <entry key="S30" value="2.6622256686017223E-17" />
-      <entry key="S60" value="5.20636094190851E-9" />
-      <entry key="M2" value="8.574870839791839E-5" />
-      <entry key="M5" value="0.05721511764172482" />
-      <entry key="M10" value="0.694067650215619" />
-      <entry key="M15" value="1.7200739720070486" />
-      <entry key="M30" value="4.745608798821542" />
-      <entry key="H1" value="9.249992784046642" />
-      <entry key="H2" value="15.191576226699631" />
-      <entry key="H4" value="21.466301081767426" />
-      <entry key="D1" value="31.17350405780184" />
-      <entry key="W1" value="33.5716006950956" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="0.8766057228607632" />
-      <entry key="MS500" value="0.9912932896853077" />
-      <entry key="S2" value="1.356049093029189" />
-      <entry key="S5" value="1.663834036304845" />
-      <entry key="S10" value="1.8150676371988617" />
-      <entry key="S30" value="2.010031787922216" />
-      <entry key="S60" value="2.883559822052604" />
-      <entry key="M2" value="6.242555553268163" />
-      <entry key="M5" value="19.776755709572893" />
-      <entry key="M10" value="43.47963027514978" />
-      <entry key="M15" value="65.87768875145282" />
-      <entry key="M30" value="122.65920071805475" />
-      <entry key="H1" value="209.5249305805846" />
-      <entry key="H2" value="328.4429984204867" />
-      <entry key="H4" value="453.1416852193047" />
-      <entry key="D1" value="639.9943089221546" />
-      <entry key="W1" value="685.0038961051365" />
-    </decayedShown>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3JSJroL6I4xjMOClxmZaZTNJnBZ" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Jt6SCWLadbiA2TQO77FXEvxBTj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/samal/IdeaProjects/MyFIrstProject/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/samal/IdeaProjects/MyFIrstProject/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -129,51 +46,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1fbdaf67-b6de-4247-9286-9edfda21cd1b" name="Changes" comment="" />
-      <created>1789648738898</created>
+      <changelist id="3f9abf35-7ccc-4af9-afa3-d6490d87a622" name="Changes" comment="" />
+      <created>1790468015651</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1789648738898</updated>
+      <updated>1790468015651</updated>
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="mySecondCode" />
-    <MESSAGE value="myFirstCode" />
-    <MESSAGE value="third" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="second" />
-    <MESSAGE value="First Code" />
-    <MESSAGE value="Variabless" />
-    <MESSAGE value="variables" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java" />
-    <MESSAGE value="variablesss" />
-    <MESSAGE value="okkkkk" />
-    <MESSAGE value="Variaballl" />
-    <MESSAGE value="User Inputs" />
-    <MESSAGE value="2" />
-    <MESSAGE value="User input" />
-    <MESSAGE value="First code" />
-    <MESSAGE value="First codes" />
-    <MESSAGE value="Variables" />
-    <MESSAGE value="User Input" />
-    <MESSAGE value="User Input rectangle solution" />
-    <MESSAGE value="Mad lib game user input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mad lib game user input" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
