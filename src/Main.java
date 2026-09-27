@@ -5,7 +5,7 @@ public class Main {
 
     public static void main (String[] args){
 
-        //Basic arthmatic in java
+        //Basic Arthmatic in java
 
         //arthmatic operation
         //Arthmatic operation
