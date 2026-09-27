@@ -1,58 +1,39 @@
 import jdk.swing.interop.SwingInterOpUtils;
+import java.util.Scanner;
 
 
 public class Main {
 
     public static void main (String[] args){
 
-        //Basic Arthmatic in java
+        Scanner scanner = new Scanner (System.in);
 
-        //arthmatic operation
-        //Arthmatic operation
+        String buy;
+        int item;
+        double price;
+        double total;
+        char currency = '$';
 
-        int x = 3;
-        int y = 2;
-        int z;
+        System.out.print("what are you going to buy? : ");
+        buy = scanner.nextLine();
 
-        //z = x + y;
-        //z = x - y;
-        //z = x * y;
-        //z = x/y;
-        //z = x%y;
+        System.out.print("how much item do you going to buy? : ");
+        item = scanner.nextInt();
 
-        // Augmented Assignment Operation
-
-        //x = x+y;
-        // x += y;
-        //y = y+x;
-        //y += x;
-        //x = x-y;
-        //x -= y;
-        //x = x/y;
-        //x /= y;
-        //x = x*y;
-        //x *= y;
-        //x =x%y;
-        //x %= y;
-
-        //Increment And Decrement Operation
-
-        //x = x+1;
-        //x++;
-        //x++;
-        //x++;
-
-        //x = x-1;
-        //x--;
-        //x--;
-        //x--;
-
-        //Order Of Operation [P-E-M-D-A-S]
-
-double result = x + 2 - (5%2) - y/3 + x*8;
+        System.out.print("what is the price of each? : ");
+                price = scanner.nextDouble();
 
 
-        System.out.println(result);
+        total = price * item;
+
+        System.out.println("you are buying a " + buy + " and the price of it is " + price + currency);
+        System.out.println("And your total is " + total + currency);
+
+
+
+
+
+scanner.close();
 
 
     }
