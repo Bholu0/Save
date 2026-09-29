@@ -30,7 +30,7 @@ public class Main {
         System.out.print(" who is the main charactor : " );
         who = scanner.nextLine();
 
-        System.out.println("you think " + name + "is bad");
+        System.out.println("you thinkk " + name + "is bad");
         System.out.println("And this is world created by GG martin and this series is mainly based on " + where);
         System.out.println("main charactors are " + who);
 
