@@ -66,7 +66,7 @@ public class Main {
 
 
         else if(age < 18){
-            System.out.println("you are a child");
+            System.out.println("You are a child");
         }
 
         else if(age >= 50){
