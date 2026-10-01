@@ -54,17 +54,6 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         //Group1
 
         if (age >= 18){
@@ -90,7 +79,7 @@ public class Main {
 
 
         else{
-            System.out.println("you are not a adult");
+            System.out.println("You are not a adult");
         }
 
         scanner.close();
