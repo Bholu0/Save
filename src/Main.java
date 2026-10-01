@@ -49,7 +49,7 @@ public class Main {
         }
 
         else{
-            System.out.println("you are " + name);
+            System.out.println("You are " + name);
         }
 
 
