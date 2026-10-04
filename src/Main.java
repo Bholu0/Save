@@ -1,87 +1,50 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.sql.SQLOutput;
-import java.util.Scanner;
+import java.util.Random;
 
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int age;
-        String name;
-        boolean isStudent;
+int number1;
+int number2;
+int number3;
+
+double decimals;
+
+boolean isHead;
+
+Random random = new Random();
+
+number1 = random.nextInt(1 ,5);
+number2 = random.nextInt(101,999);
+number3 = random.nextInt(1001,9999);
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
 
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter your age: ");
-
-        age = scanner.nextInt();
-        scanner.nextLine();
-
-        System.out.print("Enter your name: ");
-        name = scanner.nextLine();
-
-        System.out.print("Are you a student(true/false): ");
-        isStudent = scanner.nextBoolean();
+        decimals = random.nextDouble(1,5);
+        System.out.println(decimals);
 
 
-        //Group 3
+        isHead = random.nextBoolean();
+        System.out.println(isHead);
 
-        if(isStudent == true){
-            System.out.println("you are a student");
+        if(isHead){
+            System.out.println("Heads");
         }
         else{
-            System.out.println("you are not a student");
-        }
-
-
-        //Group 2
-
-        /*
-        name == "" this is same as
-        name.isEmpty()
-         */
-
-        if (name == ""){
-            System.out.println("You did not enter your name");
-        }
-
-        else{
-            System.out.println("You are " + name);
+            System.out.println("Tails");
         }
 
 
 
-        //Group1
-
-        if (age >= 18){
-            System.out.println("you are a adult");
-        }
-
-        else if(age == 0){
-            System.out.println("you have been born");
-        }
 
 
-        else if(age < 18){
-            System.out.println("You are a child");
-        }
-
-        else if(age >= 50){
-            System.out.println("you are a seniour");
-        }
-
-        else if(age < 0){
-            System.out.println("you have not born yet");
-        }
 
 
-        else{
-            System.out.println("You are not a adult");
-        }
-
-        scanner.close();
     }
 }
