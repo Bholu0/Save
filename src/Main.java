@@ -1,48 +1,66 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
 import java.sql.SQLOutput;
-import java.util.Random;
-
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-int number1;
-int number2;
-int number3;
+        //System.out.println(Math.PI);
+       //System.out.println(Math.E);
 
-double decimals;
-
-boolean isHead;
-
-Random random = new Random();
-
-number1 = random.nextInt(1 ,5);
-number2 = random.nextInt(101,999);
-number3 = random.nextInt(1001,9999);
-        System.out.println(number1);
-        System.out.println(number2);
-        System.out.println(number3);
+        System.out.println(Math.pow(2,3));
+        System.out.println(Math.sqrt(16));
+        System.out.println(Math.round(2.3));
+        System.out.println(Math.ceil(2.3));
+        System.out.println(Math.floor(2.3));
+        System.out.println((Math.max(2,38)));
+        System.out.println(Math.min(3,9));
 
 
-        decimals = random.nextDouble(1,5);
-        System.out.println(decimals);
+        //Hypotonasis c = Math.sqrt(a² + b²)
+
+        double a;
+        double b;
+        double c;
 
 
-        isHead = random.nextBoolean();
-        System.out.println(isHead);
+        Scanner scanner = new Scanner(System.in);
 
-        if(isHead){
-            System.out.println("Heads");
-        }
-        else{
-            System.out.println("Tails");
-        }
+        System.out.println("What is the area of side a: ");
+        a = scanner.nextDouble();
+
+        System.out.println("What is the area of side b: ");
+        b = scanner.nextDouble();
+
+        c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+
+        System.out.println(c + "cm");
+        //System.out.printf("%.1fcm\n" , c);
+
+        //Area,circumference,Volume
+
+        double radies;
+        double Area;
+        double circumference;
+        double volume;
+
+        System.out.println("Enter your radius: ");
+        radies = scanner.nextDouble();
+
+        Area = Math.PI * Math.pow(radies,2);
+        circumference = 2 * Math.PI * Math.pow(radies,2);
+        volume = 4.0/3.0 * Math.PI * Math.pow(radies , 2);
 
 
-//ok
 
+
+
+
+        System.out.println(Area);
+        System.out.println(circumference);
+        System.out.println(volume);
 
 
 
