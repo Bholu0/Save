@@ -1,35 +1,43 @@
 import jdk.swing.interop.SwingInterOpUtils;
 import java.sql.SQLOutput;
-import java.util.Random;
+
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int number;
-        double decimals;
-        boolean istail;
+        //Math Class Practice
 
-        Random random = new Random();
 
-        number = random.nextInt(3,6);
-        System.out.println(number);
+        double num1 = Math.PI;
+        double num2 = Math.E;
+        double num3;
+        double num4;
+        double num5;
+        double num6;
+        double num7;
 
-        decimals = random.nextDouble(2,5);
-        System.out.println(decimals);
+        System.out.println(num1);
+        System.out.println(num2);
 
-        istail = random.nextBoolean();
-        System.out.println(istail);
+        num3 = Math.pow(16,2);
+        System.out.println(num3);
 
-        if(istail){
-            System.out.println("it is tails");
-        }
-        else{
-            System.out.println("it is heads");
-        }
+        num4 = Math.sqrt(4);
+        System.out.println(num4);
+
+        num5 = Math.round(22.3);
+        System.out.println(num5);
+
+        num6 = Math.ceil(22.3);
+        System.out.println(num6);
+
+        num7 =  Math.floor(22.3);
+        System.out.println(num7);
+
+
 
 
 
     }
 }
-//
