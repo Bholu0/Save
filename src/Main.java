@@ -1,39 +1,45 @@
 import jdk.swing.interop.SwingInterOpUtils;
 import java.sql.SQLOutput;
-
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //Math Class Practice
+        //Compound interest rate calculator
+
+        double principal;
+        double rate;
+        int compoundTime;
+        int years;
+        double amount;
+
+        Scanner scanner = new Scanner (System.in);
+
+        System.out.println("Enter thr principal amount: ");
+        principal = scanner.nextDouble();
+
+        System.out.println("Enter the interest rate: ");
+        rate = scanner.nextDouble() / 100;
+
+        System.out.println("Enter the how many time you receive the compound per year: ");
+        compoundTime = scanner.nextInt() ;
+
+        System.out.println(" Enter the amout of years ");
+        years = scanner.nextInt();
+
+        amount = principal * (Math.pow(1 + rate / compoundTime , compoundTime * years));
 
 
-        double num1 = Math.PI;
-        double num2 = Math.E;
-        double num3;
-        double num4;
-        double num5;
-        double num6;
-        double num7;
+        //System.out.println("your total amout is " + amount );
+        System.out.printf("your total amout is %.2f" , amount);
 
-        System.out.println(num1);
-        System.out.println(num2);
 
-        num3 = Math.pow(16,2);
-        System.out.println(num3);
 
-        num4 = Math.sqrt(4);
-        System.out.println(num4);
 
-        num5 = Math.round(22.3);
-        System.out.println(num5);
+        scanner.close();
 
-        num6 = Math.ceil(22.3);
-        System.out.println(num6);
 
-        num7 =  Math.floor(22.3);
-        System.out.println(num7);
 
 
 
@@ -41,4 +47,3 @@ public class Main {
 
     }
 }
-//
