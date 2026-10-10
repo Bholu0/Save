@@ -1,50 +1,35 @@
 import jdk.swing.interop.SwingInterOpUtils;
 import java.sql.SQLOutput;
-import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //Compound interest rate calculator
+        boolean isWhite = false;
+        boolean isTw09 = false;
+        String gameplay = "pro";
 
-        double principal;
-        double rate;
-        int compoundTime;
-        int years;
-        double amount;
+        if(isWhite){
+            if(isTw09) {
+                System.out.println("your gameplay is " + gameplay);
+                System.out.println("you are tw09");
+            }
+            else{
+                System.out.println("you are the pro");
+            }
+        }
 
-        Scanner scanner = new Scanner (System.in);
+        else{
+            if(isTw09){
+            System.out.println("you play like TW09");
+            }
 
-        System.out.println("Enter thr principal amount: ");
-        principal = scanner.nextDouble();
-
-        System.out.println("Enter the interest rate: ");
-        rate = scanner.nextDouble() / 100;
-
-        System.out.println("Enter the how many time you receive the compound per year: ");
-        compoundTime = scanner.nextInt() ;
-
-        System.out.println(" Enter the amout of years ");
-        years = scanner.nextInt();
-
-        amount = principal * (Math.pow(1 + rate / compoundTime , compoundTime * years));
-
-
-        //System.out.println("your total amout is " + amount );
-        System.out.printf("your total amout is %.2f" , amount);
-
-
-
-
-        scanner.close();
-
-
-
-
+            else{
+                    System.out.println("you are not in the game");
+                }
+        }
 
 
 
     }
 }
-//
