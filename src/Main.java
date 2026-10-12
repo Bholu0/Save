@@ -1,33 +1,37 @@
 import jdk.swing.interop.SwingInterOpUtils;
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        boolean isPro = false;
-        boolean isNoob = false;
-        String isWhite = "white444";
-        String isTw09 =  "isTw09";
+        String name;
+        boolean isTrue;
 
-        if(isPro){
-            if(isNoob){
-            System.out.println("he is " + isWhite);
-                System.out.println("he is " + isTw09);}
-                else{
-                    System.out.println("he is " + isWhite);
-                }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        name = scanner.nextLine();
+
+        if(name.contains(" ")){
+            System.out.println("User name is not valid");
         }
-        else{
-            if(isNoob){
-                System.out.println("he is tw09");}
-                else{
-                    System.out.println("who are you");
-                }
-            }
+        else if(isTrue = name.length() >= 5)
+        {
+            System.out.println("user name is valid");
+
         }
 
 
+
+            scanner.close();
+
+
+        }
     }
-//
+
+
+
+
 
