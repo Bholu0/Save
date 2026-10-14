@@ -6,44 +6,36 @@ public class Main {
 
     public static void main(String[] args) {
 
-       //Weight Conversion Program
+       Scanner scanner = new Scanner(System.in);
 
-        Scanner scanner = new Scanner(System.in);
+       String username;
+       String passward;
 
-        int weight;
-        double newWeight;
-        int choice;
+        System.out.println("Enter your username: ");
+        username = scanner.nextLine();
+        System.out.println("Enter your passward");
+        passward = scanner.nextLine();
 
-        System.out.println("1: want weight to lbs to kg");
-        System.out.println("2: want weight to kg to lbs");
+       if(username.equalsIgnoreCase("bholu")){
+           if(passward.equalsIgnoreCase("java123")){
+               System.out.println("Login is successfull");}
+           else{
+                   System.out.println("passward incorrect");
 
-        System.out.println("Enter your choice");
-        choice = scanner.nextInt();
+           }
 
-        if(choice == 1){
 
-            System.out.println("Enter your weight in lbs");
-            weight = scanner.nextInt();
-            newWeight = weight * 453592;
-            System.out.println(newWeight + " kg");
+           }
+       else{
+               System.out.println("incorrect username");
         }
-        else if(choice == 2){
-            System.out.println("Enter your weight in kg");
-            weight = scanner.nextInt();
-            newWeight = weight * 2.20462;
-            System.out.println(newWeight + " lbs ");
-        }
-        else{
-            System.out.println("your choice is not valid");
-        }
-
 
 
 
 
         }
     }
-//
+
 
 
 
