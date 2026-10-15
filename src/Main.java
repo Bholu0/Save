@@ -6,37 +6,37 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-       String username;
-       String passward;
+        int balance = 5000;
+        int withdraw;
+        int remainingBalance;
 
-        System.out.println("Enter your username: ");
-        username = scanner.nextLine();
-        System.out.println("Enter your passward");
-        passward = scanner.nextLine();
+        System.out.println("Enter the amount of withdraw");
+        withdraw = scanner.nextInt();
 
-       if(username.equalsIgnoreCase("bholu")){
-           if(passward.equalsIgnoreCase("java123")){
-               System.out.println("Login is successfull");}
-           else{
-                   System.out.println("passward incorrect");
+        if(withdraw <= 0){
+            System.out.println("invailed amount");
+        }
+        else if(withdraw > balance) {
 
-           }
+            System.out.println("insufficiant balance");
+        }
+        else{
+            remainingBalance = balance - withdraw;
 
-
-           }
-       else{
-               System.out.println("incorrect username");
+            System.out.println((remainingBalance));
         }
 
 
 
 
-        }
     }
 
-//
+        }
+
+
+
 
 
 
