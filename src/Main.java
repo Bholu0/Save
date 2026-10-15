@@ -6,27 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        //ternary operator = Return 1 or 2 value if condition are true
+        //variables = (condition) ? "ifTrue" : "ifFalse";
 
-        int balance = 5000;
-        int withdraw;
-        int remainingBalance;
+        int number = 31;
 
-        System.out.println("Enter the amount of withdraw");
-        withdraw = scanner.nextInt();
+        String ok = (number >= 30) ? "fine" : "wrong";
 
-        if(withdraw <= 0){
-            System.out.println("invailed amount");
-        }
-        else if(withdraw > balance) {
+        System.out.println(ok);
 
-            System.out.println("insufficiant balance");
-        }
-        else{
-            remainingBalance = balance - withdraw;
-
-            System.out.println((remainingBalance));
-        }
 
 
 
@@ -36,7 +24,7 @@ public class Main {
         }
 
 
-//
+
 
 
 
