@@ -1,25 +1,37 @@
-import jdk.swing.interop.SwingInterOpUtils;
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //ternary operator = Return 1 or 2 value if condition are true
-        //variables = (condition) ? "ifTrue" : "ifFalse";
+        Scanner scanner = new Scanner(System.in);
 
-        int number = 31;
+        double temp;
+        double newTemp;
+        String unit;
 
-        String ok = (number >= 30) ? "fine" : "wrong";
+        System.out.println("Enter the temperature");
+        temp = scanner.nextDouble();
 
-        System.out.println(ok);
+        System.out.println("Convert to Celsius/Feranhite? C/F");
+        unit = scanner.next().toUpperCase();
+
+        newTemp = (unit.equals("C"))? (temp -32) * 5/9 : (temp - 5 / 9) + 32;
+
+        //System.out.println(newTemp + "°" + unit);
+        System.out.printf("%.1f° %s" , newTemp , unit);
+
+
+
+
+
+
 
 
     }
 
-        }
-//
+}
 
 
 
