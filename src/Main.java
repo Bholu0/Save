@@ -5,35 +5,45 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Enhanced switchs = it is used as a replacement to many if statements
+        //              (Java14 features)
+
         Scanner scanner = new Scanner(System.in);
 
-        double temp;
-        double newTemp;
-        String unit;
 
-        System.out.println("Enter the temperature");
-        temp = scanner.nextDouble();
+        String day;
 
-        System.out.println("Convert to Celsius/Feranhite? C/F");
-        unit = scanner.next().toUpperCase();
+        System.out.print("Enter the day: ");
+        day = scanner.nextLine();
 
-        newTemp = (unit.equals("C"))? (temp -32) * 5/9 : (temp - 5 / 9) + 32;
+        switch(day) {
+            case "Monday" -> System.out.println("It is weekday ");
+            case "Tuesday" -> System.out.println("It is weekday");
+            case "Wednesday" -> System.out.println("It is weekday");
+            case "Thrusday" -> System.out.println("It is weekday");
+            case "Friday" -> System.out.println("It is weekday");
+            case "Saterday" -> System.out.println("It is weekend");
+            case "Sunday" -> System.out.println("It is weekend");
+            default -> System.out.println(day + " it is not a day");
+        }
 
-        //System.out.println(newTemp + "°" + unit);
-        System.out.printf("%.1f° %s" , newTemp , unit);
+        switch(day) {
+            case "Monday" , "Tuesday" , "Wednesday" , "Thrusday" , "Friday" ->
+                    System.out.println("It is weekday ");
 
+            case "Saterday" ,"Sunday" ->
+                    System.out.println("It is weekend")
+           ;
 
-
-
-
-
+            default -> System.out.println(day + " it is not a day");
+        }
 
 
     }
 
 }
 
-//
+
 
 
 
