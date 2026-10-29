@@ -13,12 +13,13 @@ public class Main {
 
         int guess =0;
         int randomNumber = random.nextInt(1, 10+1);
-        int attempt;
+        int attempt = 0;
 
         System.out.println("Guess a number between ( 1 to 10)");
 
         do { System.out.print("Enter your guess: ");
             guess = scanner.nextInt();
+            attempt++;
 
             if(guess > randomNumber){
                 System.out.println("the number is high");
@@ -30,6 +31,7 @@ public class Main {
             }
             else{
                 System.out.println("you have won");
+                System.out.println("you have attemted " + attempt + " times.");
             }
         } while (guess != randomNumber);
 
@@ -38,7 +40,7 @@ public class Main {
 
     }
 }
-//
+
 
 
 
