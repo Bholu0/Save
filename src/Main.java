@@ -5,30 +5,36 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        //break = break out of a loop(STOP);
-        //continue = skip the current iteration of loop(Skip);
+        // nested loop = A loop inside another loop
+        //                          Used often with matrices or DS&A
 
+        Scanner scanner = new Scanner(System.in);
 
-        int i = 0;
+        int rows;
+        int columns;
+        char symbol;
 
-        while (i <= 10) {
+        System.out.print("Enter the # of rows: ");
+        rows = scanner.nextInt();
 
-            System.out.println(i++);
-            System.out.println("ok");
+        System.out.print("Enter the # of columns: ");
+        columns = scanner.nextInt();
 
-            if (i == 3) {
-                i++;
-                continue;
+        System.out.print("Enter the symbol to use: ");
+        symbol = scanner.next().charAt(0);
+
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < columns; j++){
+                System.out.print(symbol);
             }
-
-            if (i == 8) {
-                break;
-            }
-
+            System.out.println();
         }
+
+        scanner.close();
     }
 }
-//
+
+
 
 
 
