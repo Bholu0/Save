@@ -5,19 +5,37 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        // for loop = it execute the code certain amount of times
+        //break = break out of a loop(STOP);
+        //continue = skip the current iteration of loop(Skip);
 
-        for ( int i = 10; i <=100 ; i++ ){
-            System.out.println(i);
+
+        int i = 0;
+
+        while (i <= 10) {
+
+            System.out.println(i++);
+            System.out.println("ok");
+
+            if (i == 3) {
+                i++;
+                continue;
+            }
+
+            if (i == 8) {
+                break;
+            }
+
         }
-
-        for(int i =5; i <=50 ; i+= 5 ){
-            System.out.println(i);
-        }
-
     }
 }
-//
+
+
+
+
+
+
+
+
 
 
 
