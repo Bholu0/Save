@@ -1,20 +1,26 @@
 public class Main {
-    public static void main(String[] args) {
 
-        System.out.println(add(1, 2, 3));
+    static int x = 3; //CLASS
 
+    public static void main(String[] args){
 
+        //Variables Scope = where a variable can be accessed
+
+        //int x = 1; //LOCAL
+
+        System.out.println(x);
+
+        doSomething();
     }
+    static void doSomething(){
 
-    static double add(int num1, int num2) {
-        return num1 + num2;
-    }
+        int x = 2; //LOCAL
 
-    static double add(int num1, int num2, int num3) {
-        return num1 + num3;
+        System.out.println(x);
     }
 }
-//
+
+
 
 
 
