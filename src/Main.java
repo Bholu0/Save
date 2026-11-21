@@ -1,77 +1,111 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class Main {
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter your password: ");
-        String password = scanner.nextLine();
+        double balance = 5000;
+        int pin = 1234;
+        int attempts = 0;
 
-        int failedRules = 0;
-        boolean hasUppercase = false;
-        boolean hasLowercase = false;
-        boolean hasDigit = false;
-        boolean hasSpace = false;
+        int deposits = 0;
+        int withdrawals = 0;
 
-        if (password.length() < 8) {
-            failedRules++;
-        }
+        boolean loggedIn = false;
 
-        for (int i = 0; i < password.length(); i++) {
+        while (attempts < 3) {
 
-            char ch = password.charAt(i);
+            System.out.print("Enter your PIN: ");
+            int enteredPin = scanner.nextInt();
 
-            if (Character.isUpperCase(ch)) {
-                hasUppercase = true;
+            if (enteredPin == pin) {
+                loggedIn = true;
+                break;
             }
+            else {
+                attempts++;
+                System.out.println("Incorrect PIN!");
 
-            if (Character.isLowerCase(ch)) {
-                hasLowercase = true;
-            }
-
-            if (Character.isDigit(ch)) {
-                hasDigit = true;
-            }
-
-            if (ch == ' ') {
-                hasSpace = true;
+                if (attempts == 3) {
+                    System.out.println("Account locked.");
+                }
             }
         }
 
-        if (!hasUppercase) {
-            failedRules++;
-        }
+        if (loggedIn) {
 
-        if (!hasLowercase) {
-            failedRules++;
-        }
+            int choice;
 
-        if (!hasDigit) {
-            failedRules++;
-        }
+            do {
 
-        if (hasSpace) {
-            failedRules++;
-        }
+                System.out.println("\n===== BANK MENU =====");
+                System.out.println("1. Check Balance");
+                System.out.println("2. Deposit");
+                System.out.println("3. Withdraw");
+                System.out.println("4. Transaction Summary");
+                System.out.println("5. Exit");
 
-        if (failedRules == 0) {
-            System.out.println("Strong Password");
-        }
-        else if (failedRules == 1) {
-            System.out.println("Medium Password");
-        }
-        else {
-            System.out.println("Weak Password");
+                System.out.print("Choose an option: ");
+                choice = scanner.nextInt();
+
+                switch (choice) {
+
+                    case 1:
+                        System.out.printf("Balance: ₹%.2f%n", balance);
+                        break;
+
+                    case 2:
+                        System.out.print("Enter deposit amount: ");
+                        double depositAmount = scanner.nextDouble();
+
+                        if (depositAmount > 0) {
+                            balance += depositAmount;
+                            deposits++;
+                            System.out.println("Deposit successful!");
+                        }
+                        else {
+                            System.out.println("Invalid deposit amount.");
+                        }
+                        break;
+
+                    case 3:
+                        System.out.print("Enter withdrawal amount: ");
+                        double withdrawalAmount = scanner.nextDouble();
+
+                        if (withdrawalAmount > 0 && withdrawalAmount <= balance) {
+                            balance -= withdrawalAmount;
+                            withdrawals++;
+                            System.out.println("Withdrawal successful!");
+                        }
+                        else {
+                            System.out.println("Invalid withdrawal amount.");
+                        }
+                        break;
+
+                    case 4:
+                        System.out.println("Total deposits: " + deposits);
+                        System.out.println("Total withdrawals: " + withdrawals);
+                        break;
+
+                    case 5:
+                        System.out.println("Thank you for using our bank!");
+                        break;
+
+                    default:
+                        System.out.println("Invalid option.");
+                }
+
+            } while (choice != 5);
+
         }
 
         scanner.close();
-
     }
 }
-//
+
+
+
 
 
 
