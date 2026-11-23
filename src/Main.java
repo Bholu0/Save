@@ -17,12 +17,11 @@ public class Main {
         int numDeposit = 0;
 
 
-
-
-
-
-
         while(isWork){
+            if(attempt >= 3) {
+                //isWork = false;
+                break;
+            }
             System.out.print("Enter your pin: ");
             enterPin = scanner.nextInt();
             attempt++;
@@ -44,10 +43,11 @@ public class Main {
                                 System.out.println("Enter the amount");
                                 amount = scanner.nextInt();
 
-                                if (amount <= balance) {
-                                    System.out.println(currentBalance = balance - amount);
-                                    numWithdraw++;
-                                } else if (amount > balance) {
+                                if (amount <= balance && amount > 0) {
+                                        System.out.println(currentBalance = balance - amount);
+                                        balance -= amount;
+                                        numWithdraw++;
+                                }else if (amount > balance && amount > 0) {
                                     System.out.println("you did not have enough amount");
                                 } else {
                                     System.out.println("Invailed Input");
@@ -59,17 +59,23 @@ public class Main {
 
                                 if (amount > 0) {
                                     System.out.println(currentBalance = amount + balance);
+                                    balance += amount;
                                     numDeposit++;
-                                } else {
+                                } else if(amount < 0){
+                                    System.out.println("Amount cant be negetive");
+                                }
+                                else{
                                     System.out.println("Invailed amount");
                                 }
-
                             }
-                            case 4 -> System.out.println(numWithdraw + numDeposit);
+                            case 4 -> System.out.println("Total no of withdrawal and deposits are " + numWithdraw + numDeposit);
                             case 5 -> {
                                 isWork = false;
                                 attempt = 4;
+
                             }
+
+
                         }
 
                     } else {
@@ -81,18 +87,17 @@ public class Main {
 
                     }
                 }
-            if(attempt >= 3){
-                isWork = false;
+
             }
             }
 
-        System.out.println("Thank you for using our Banking system");
-        System.out.println("Have a good day");
+
+
 
 
     }
 
-}
+
 
 
 
