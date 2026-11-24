@@ -5,99 +5,84 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int balance = 5000;
-        int pin = 1234;
-        int enterPin;
-        int attempt = 0;
-        boolean isWork = true;
-        int choice;
-        int amount;
-        int currentBalance;
-        int numWithdraw = 0;
-        int numDeposit = 0;
+        int age;
+        int choice = 0;
+        int numTicket = 0;
+        double bill= 0;
+        double premiumBill;
 
+        System.out.print("Enter your age: ");
+        age = scanner.nextInt();
 
-        while(isWork){
-            if(attempt >= 3) {
-                //isWork = false;
-                break;
-            }
-            System.out.print("Enter your pin: ");
-            enterPin = scanner.nextInt();
-            attempt++;
-            while(attempt < 3){
-                    if (pin == enterPin) {
-                        System.out.println("1.CHECK BALANCE");
-                        System.out.println("2.WITHDRAW");
-                        System.out.println("3.DEPOSIT");
-                        System.out.println("4.Treansection Summary");
-                        System.out.println("5.EXIT");
+        while(age > 0) {
+            if (age < 12) {
+                System.out.println("Ticket price is 100");
+                System.out.println("How many ticket to buy");
+                numTicket = scanner.nextInt();
 
-                        System.out.println("Enter your choice");
-                        choice = scanner.nextInt();
+                bill = numTicket * 100;
+            } else if (age < 18) {
+                System.out.println("Ticket price is 150");
+                System.out.println("How many ticket to buy");
+                numTicket = scanner.nextInt();
 
-                        switch (choice) {
+                bill = numTicket * 150;
+            } else if (age < 60) {
+                System.out.println("Ticket price is 250");
+                System.out.println("How many ticket to buy");
+                numTicket = scanner.nextInt();
 
-                            case 1 -> System.out.println(balance);
-                            case 2 -> {
-                                System.out.println("Enter the amount");
-                                amount = scanner.nextInt();
+                bill = numTicket * 250;
+            } else if (age >= 60) {
+                System.out.println("Ticket price is 180");
+                System.out.println("How many ticket to buy");
+                numTicket = scanner.nextInt();
 
-                                if (amount <= balance && amount > 0) {
-                                        System.out.println(currentBalance = balance - amount);
-                                        balance -= amount;
-                                        numWithdraw++;
-                                }else if (amount > balance && amount > 0) {
-                                    System.out.println("you did not have enough amount");
-                                } else {
-                                    System.out.println("Invailed Input");
-                                }
-                            }
-                            case 3 -> {
-                                System.out.println("Enter the amount");
-                                amount = scanner.nextInt();
-
-                                if (amount > 0) {
-                                    System.out.println(currentBalance = amount + balance);
-                                    balance += amount;
-                                    numDeposit++;
-                                } else if(amount < 0){
-                                    System.out.println("Amount cant be negetive");
-                                }
-                                else{
-                                    System.out.println("Invailed amount");
-                                }
-                            }
-                            case 4 -> System.out.println("Total no of withdrawal and deposits are " + numWithdraw + numDeposit);
-                            case 5 -> {
-                                isWork = false;
-                                attempt = 4;
-
-                            }
-
-
-                        }
-
-                    } else {
-                        System.out.println("Wrong pin");
-                        System.out.println("you have only 3 attempts");
-                        System.out.println("Enter your pin: ");
-                        enterPin = scanner.nextInt();
-                        attempt++;
-
-                    }
-                }
-
-            }
+                bill = numTicket * 180;
             }
 
+           if(age > 0 ) {
+               System.out.println("Do you want (1.Premium) or (2.Regular) or (3.Exit) ");
+               System.out.println("Enter your choice");
+               choice = scanner.nextInt();
+           }
+
+           if (choice == 2){
+
+               if(bill >= 1000){
+                   bill *= 0.90;
+               }
+
+               System.out.println(bill);
+
+           }
+           else if(choice == 1){
+
+               premiumBill = bill + 100;
+
+               if(premiumBill >= 1000){
+                   premiumBill *= 0.90;
+               }
+
+               System.out.println(premiumBill);
+
+           }
+           else if(choice == 3){
+               break;
+           }
+           else{
+               System.out.println("Invailed choice");
+           }
+
+        }
 
 
 
 
+            }
     }
 
-//
+
 
 
 
