@@ -6,31 +6,32 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int size;
-        String[] foods;
-
-        System.out.print("Enter # of food do you want: ");
-        size = scanner.nextInt();
-        scanner.nextLine();
+        boolean isFound = false;
 
 
-        foods = new String[size];
 
+        String[] fruits = {"apple", "orange", "mango", "banana"};
 
-        for(int i = 0; i < foods.length; i++){
+        String target = "apple";
 
-            System.out.print("Enter your food: ");
-            foods[i] = scanner.nextLine();
+        for(int i = 0; i < fruits.length; i++){
+            if(target == fruits[i]){
+                System.out.println("item found at index " + i);
+                isFound = true;
+                break;
 
+            }
         }
 
-        for(String food : foods){
-            System.out.println(food);
+        if(!isFound){
+            System.out.println("Target does not found");
         }
+
+
 
            }
         }
-//
+
 
 
 
