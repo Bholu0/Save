@@ -4,34 +4,43 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        // vararg = in methods its accept varying # of arguments
+        //          makes methods more flexible, no need for overloaded methods
+        //          java will pack the argument in Arrays
+        //          ...(ellipse)
 
-        boolean isFound = false;
 
 
 
-        String[] fruits = {"apple", "orange", "mango", "banana"};
 
-        String target = "apple";
+        System.out.println(add());
 
-        for(int i = 0; i < fruits.length; i++){
-            if(target == fruits[i]){
-                System.out.println("item found at index " + i);
-                isFound = true;
-                break;
 
-            }
+
+
+    }
+    static double add(double... num){
+
+        double sum = 0;
+
+
+        for(double numbers : num){
+
+             sum += numbers;
+
+
+        }
+        if(sum == 0){
+            return 0;
         }
 
-        if(!isFound){
-            System.out.println("Target does not found");
+
+        return sum;
+
+
+    }
         }
 
-
-
-           }
-        }
-//
 
 
 
