@@ -4,43 +4,45 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        // vararg = in methods its accept varying # of arguments
-        //          makes methods more flexible, no need for overloaded methods
-        //          java will pack the argument in Arrays
-        //          ...(ellipse)
+        // 2D Arras = A array where each element is an array
+        //            used to store matrix of data
 
 
 
+        String[][] foods = {{"apple", "mango", "orange"},
+                            {"tamato" , "patato", "onion"},
+                            {"beaf", "motton", "chicken"}
+        };
 
+        foods[2][0] = "fish";
 
-        System.out.println(add());
+        System.out.println(foods);
 
+        for(String[] food : foods){
+            for(String display : food){
+                System.out.println(display);
+            }
+        }
 
+        /*
+         String[] fruits = {"apple", "mango", "orange"};
+        String[] vegetables = {"tamato" , "patato", "onion"};
+        String[] meat = {"beaf", "motton", "chicken"};
+
+        String[][] foods = {fruits, vegetables, meat};
+
+        System.out.println(foods);
+
+        for(String[] food : foods){
+            for(String display : food){
+                System.out.println(display);
+            }
+        }
+         */
 
 
     }
-    static double add(double... num){
-
-        double sum = 0;
-
-
-        for(double numbers : num){
-
-             sum += numbers;
-
-
         }
-        if(sum == 0){
-            return 0;
-        }
-
-
-        return sum;
-
-
-    }
-        }
-//
 
 
 
